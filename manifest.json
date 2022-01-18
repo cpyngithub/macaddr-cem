@@ -8,6 +8,7 @@
 		"48": "icons/48.png",
 		"128": "icons/128.png"
 	},
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwuEul0QVHQ+5q+hKDdpdDGmdxieWlF0NsCaq8PMrnLIBpt6ESI/kxdIMhxCFSykNmjAa3t0mmg/ap5T+Wbe0K7GQsqTcY4ISbu7aYOyoxguxyCjdZg9XX4yir7p4eO8waYi5UVaKB4zx/3i7/m6JAFhHcQk6JlkU/Y9hE+5jBzTEhZ1omOlrRawoT7pJnIUq+3zn9iiD3hnD7UkB76Wb6DHmI5r434txfUcxauzekjiYX6CyP/vIrLmDv/sSKXrKeAGbDXyv4WvJJKKkxtJyKWp14ow4Ij9CDabRwv9Ofz3yktrxTcO5fgLPF7IUvuQja0JISLIqp8tzw2eZrCwNswIDAQAB",
 	"page_action": {
 	 "default_popup": "mac.html",
       "default_icon": {
@@ -16,6 +17,7 @@
 		"128": "icons/128-gray.png"
 	  }
     },
+	
 	"background" : { "scripts": ["background.js"] },
 	"permissions" : [
 		"nativeMessaging",
