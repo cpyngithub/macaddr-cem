@@ -1,0 +1,9 @@
+{
+    "name": "com.yd.macaddr.nativemessage",
+    "description": "get mac address",
+    "path": "GetMacEx.exe",
+    "type": "stdio",
+    "allowed_origins": [
+    "chrome-extension://obdffppmgfhdpchjkgemndlmamcconfd/"
+    ]
+}

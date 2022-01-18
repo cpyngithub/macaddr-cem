@@ -1,0 +1,33 @@
+{
+	"name" : "MacAddr",
+	"version" : "1.0.0",
+	"description" : "获取MAC地址",
+	
+	"icons": {
+		"16": "icons/16.png",
+		"48": "icons/48.png",
+		"128": "icons/128.png"
+	},
+	"page_action": {
+	 "default_popup": "mac.html",
+      "default_icon": {
+		"16": "icons/16-gray.png",
+		"48": "icons/48-gray.png",
+		"128": "icons/128-gray.png"
+	  }
+    },
+	"background" : { "scripts": ["background.js"] },
+	"permissions" : [
+		"nativeMessaging",
+		"tabs",
+		"http://xxx/*"
+	],
+	"content_scripts": [
+    {
+      "matches": ["http://localhost:8080/*"],
+      "js": ["content.js"]
+    }
+	],
+	"minimum_chrome_version" : "6.0.0.0",
+	"manifest_version": 2
+}
